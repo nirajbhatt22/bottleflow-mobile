@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "BottleFlow",
+    "slug": "bottleflow-mobile",
+    "version": "1.0.0",
+    "icon": "./src/assets/images/icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F7F7F9",
+    "primaryColor": "#5B2C83",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.itc502.bottleflow"
+    },
+    "android": {
+      "package": "com.itc502.bottleflow",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/icon-front.png",
+        "backgroundColor": "#5B2C83"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
