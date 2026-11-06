@@ -4,7 +4,8 @@
 
 **Student:** Niraj Bhatt  
 **Unit:** ITC502  
-**Assessment:** Project 2 - React Native Mobile Application
+**Assessment:** Project 2 - React Native Mobile Application  
+**GitHub:** https://github.com/nirajbhatt22/bottleflow-mobile
 
 BottleFlow is a mobile-first bottle shop prototype created for ITC502 Project 2. It turns the Project 1 Figma concept into a React Native app while responding to feedback about the incomplete shopping journey, age assurance and responsible alcohol use.
 
