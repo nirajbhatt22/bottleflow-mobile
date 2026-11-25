@@ -1,0 +1,1 @@
+Put your real device or emulator screenshots here before submission: login.png, dashboard.png, products.png, cart.png, requests.png, reports.png, camera.png. Do not use mockups as evidence of a running app.

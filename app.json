@@ -2,23 +2,35 @@
   "expo": {
     "name": "BottleFlow",
     "slug": "bottleflow-mobile",
+    "scheme": "bottleflow",
     "version": "1.0.0",
-    "icon": "./src/assets/images/icon.png",
     "orientation": "portrait",
-    "userInterfaceStyle": "light",
-    "backgroundColor": "#F7F7F9",
-    "primaryColor": "#5B2C83",
+    "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": false,
+      "supportsTablet": true,
       "bundleIdentifier": "com.itc502.bottleflow"
     },
     "android": {
       "package": "com.itc502.bottleflow",
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/images/icon-front.png",
-        "backgroundColor": "#5B2C83"
+        "backgroundColor": "#231147",
+        "foregroundImage": "./src/assets/images/icon-front.png"
       }
     },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow BottleFlow to select a product photo for preview.",
+          "cameraPermission": "Allow BottleFlow to capture a product photo for preview.",
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "extra": {
+      "purpose": "Western Australia pickup-only bottle shop prototype. No delivery or in-app payment. Original photo ID is compulsory at collection."
+    },
+    "icon": "./src/assets/images/icon.png",
     "web": {
       "bundler": "metro"
     }

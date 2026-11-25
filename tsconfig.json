@@ -1,12 +1,1 @@
-{
-  "extends": "expo/tsconfig.base",
-  "compilerOptions": {
-    "strict": true,
-    "noUncheckedIndexedAccess": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    }
-  },
-  "include": ["App.tsx", "src/**/*.ts", "src/**/*.tsx"]
-}
+{"extends":"expo/tsconfig.base","compilerOptions":{"strict":true,"noEmit":true,"jsx":"react-jsx","allowJs":true,"skipLibCheck":true},"include":["**/*.ts","**/*.tsx","**/*.json"]}
